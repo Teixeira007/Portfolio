@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Righteous&family=Roboto:wght@100;400;700&family=Sarala:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.10rem;
+    font-weight: 600;
+    max-width: 1rem;
+}
+
+.nav{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav a{
+    color: #000;
+    font-family: 'Sarala', sans-serif;
+}
+
+.container{
+    padding: 3rem 5rem 5rem 5rem;
+}
+
+.home{
+    display: flex;
+    gap: 14rem;
+}
+
+
+.information-main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.information-main h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    max-width: 25rem;
+    line-height: 5rem;
+}
+
+
+.information-main p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 0.7rem;
+    max-width: 25rem;
+    text-align: justify;
+}
+
+.information-buttons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 0.7rem;
+    border: none;
+    font-size: 0.7rem;
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+}
+
+.btn i{
+    font-size: 0.8rem;
+}
+
+.information-talk{
+    background-color: #8873F0;
+    color: #fff;
+}
+
+.information-social-midia{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.midia{
+    background-color: #FFFAF0;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.information-image-perfil{
+    background-color: #FCDA69;
+    
+    border-radius: 40%;
+}
+
+.information-image-perfil img{
+    display: block;
+    margin: 0 auto;
+    width: 30rem;
+}
