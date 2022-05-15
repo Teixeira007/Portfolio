@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Righteous&family=Roboto:wght@100;400;700&family=Sarala:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Righteous&family=Roboto:wght@100;300;400;700&family=Sarala:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -44,7 +43,7 @@
 .information-main{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .information-main h1{
@@ -85,30 +84,130 @@
 }
 
 .information-talk{
-    background-color: #8873F0;
+    background-color: #664de4;
     color: #fff;
+}
+
+.information-portfolio{
+    background-color: #fff;
 }
 
 .information-social-midia{
     display: flex;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .midia{
-    background-color: #FFFAF0;
+    background-color: #efefefa9;
     border-radius: 50%;
     padding: 1rem;
 }
 
-.information-image-perfil{
-    background-color: #FCDA69;
-    
-    border-radius: 40%;
-}
 
 .information-image-perfil img{
     display: block;
     margin: 0 auto;
-    width: 30rem;
+    width: 33rem;
+    height: 35rem;
+}
+
+.section-skills-experience{
+    display: flex;
+    padding: 3rem 5rem 5rem 5rem;
+    background-color: #FCDA69;
+    gap: 12rem;
+}
+
+.skills-experience-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.skills-experience-left h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 5rem;
+    max-width: 20rem;
+}
+
+.about-skills{
+    font-family: 'Sarala', sans-serif;
+    font-size: 0.7rem;
+    max-width: 25rem;
+    text-align: justify;
+}
+
+.title-skills{
+    font-family: 'Sarala', sans-serif;
+    font-size: 2rem;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6rem;
+    row-gap: 1rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.skill-experience-right{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experiences{
+    display: flex;
+    gap: 2rem;
+    border-top: #000 solid 0.1rem;
+    padding-top: 1rem;
+}
+
+.date-experience{
+    font-family: 'Sarala', sans-serif;
+    font-size: 0.7rem;
+}
+
+
+.info-experience{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.info-title{
+    font-family: 'Sarala', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.info-sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #4b4b4b;
 }
