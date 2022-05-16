@@ -112,10 +112,60 @@
     height: 35rem;
 }
 
+.service-offer{
+    padding: 3rem 5rem 5rem 5rem;
+    background-color: #FCDA69;
+    display: flex;
+    gap: 12rem;
+}
+
+.services-left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.services-left p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 0.7rem;
+    max-width: 25rem;
+    text-align: justify;
+}
+
+.services-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.services{
+    display: flex;
+    gap: 2rem;
+    border-top: #000 solid 0.1rem;
+    padding-top: 1rem;
+}
+
+.services span{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.info-geral-services{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-title{
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    max-width: 20.5rem;
+}
+
 .section-skills-experience{
     display: flex;
     padding: 3rem 5rem 5rem 5rem;
-    background-color: #FCDA69;
     gap: 12rem;
 }
 
@@ -220,6 +270,7 @@
     padding: 3rem 5rem 5rem 5rem;
     flex-direction: column;
     gap: 3rem;
+    background-color: #FCDA69;
 }
 
 .projects{
@@ -273,3 +324,9 @@
 .btn-project i{
     font-size: 1.5rem;
 }
+
+.img-project img{
+    width: 22.37rem;
+    height: 16.87rem;
+}
+
