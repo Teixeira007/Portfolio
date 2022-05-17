@@ -246,7 +246,7 @@
 
 .experience-title{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .experience{
@@ -264,7 +264,7 @@
 
 .date-experience{
     font-family: 'Sarala', sans-serif;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 
@@ -276,8 +276,14 @@
 
 .info-title{
     font-family: 'Sarala', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
+}
+
+.info-experience-title{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    max-width: 20.5rem;
 }
 
 .info-sub-title{
